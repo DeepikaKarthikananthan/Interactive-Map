@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Map - Click to Place Marker</title>
+    <!-- Leaflet.js styles -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Interactive Map - Click to Place Marker</h1>
+
+    <!-- Map container -->
+    <div id="map"></div>
+
+    <!-- Marker Info Container -->
+    <div id="marker-info">
+        <h2 id="marker-title">Click on the map to place a marker</h2>
+        <p id="marker-description">Details about the clicked location will appear here.</p>
+        <div id="city-details">
+            <!-- City details will appear here -->
+        </div>
+    </div>
+
+    <!-- Leaflet.js script -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
